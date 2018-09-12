@@ -1,0 +1,11 @@
+h1{
+    color:blue;
+}
+figure{
+    
+    flex: 33.33%;
+    padding: 5px;
+}
+.row{
+display:flex;
+}
