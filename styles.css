@@ -1,11 +1,90 @@
-h1{
-    color:blue;
-}
 figure{
-    
+   
     flex: 33.33%;
     padding: 5px;
 }
 .row{
 display:flex;
+}
+.main {
+    align-content: center;
+    margin: 5% 20%; 
+}
+#banner {
+    background-image: url("./images/banner1100x550.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    opacity: 0.7;
+}
+#banner .content h1 {
+    border: 3px solid white;
+    border-radius: 5%;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+h3 {
+    color: rgb(252, 6, 6);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  h2 {
+    color:rgb(14, 58, 97);
+  font-size: 35px;
+  line-height: 48px;
+  padding: 20px 30px;
+  text-align: center;
+  }
+  
+p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 10px 20px;
+  }
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+    list-style: none;
+  }
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+body{
+    background-image: url("./images/Motorcycles-background.jpg") ;
+    background-size: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+.intro{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+    margin: 5% 20%;
+}
+figure {
+    transition: transform .2s; /* Animation */
+}
+
+figure:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large,
+     it will go outside of the viewport) */
+}
+figcaption {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
 }
