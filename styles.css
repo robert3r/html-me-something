@@ -110,3 +110,6 @@ figcaption {
     text-align: center;
     color:rgb(252, 6, 6); 
 }
+em{
+    margin: 40%;
+}
